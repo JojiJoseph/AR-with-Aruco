@@ -4,7 +4,7 @@ import numpy as np
 import pyrender
 import trimesh
 
-cap = cv2.VideoCapture(2) # Replace with your camera index
+cap = cv2.VideoCapture(-1) # Replace with your camera index
 cap.set(3, 1280)
 cap.set(4, 720)
 aruco_dict = aruco.Dictionary_get(aruco.DICT_6X6_250)
